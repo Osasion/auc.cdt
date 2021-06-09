@@ -42,14 +42,14 @@ sudo yum install ./eosio.cdt-1.8.0-1.el7.x86_64.rpm
 ## RPM Package Uninstall
 
 ```sh
-sudo yum remove eosio.cdt
+sudo yum remove auc.cdt
 ```
 
 # Guided Installation or Building from Scratch
 
 ```sh
 git clone --https://github.com/Osasion/auc.cdt
-cd eosio.cdt
+cd auc.cdt
 mkdir build
 cd build
 cmake ..
