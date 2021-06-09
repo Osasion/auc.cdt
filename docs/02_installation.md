@@ -16,7 +16,7 @@ brew install auc.cdt
 ## Mac OS X Brew Uninstall
 
 ```sh
-brew remove eosio.cdt
+brew remove auc.cdt
 ```
 
 ## Debian Package Install
