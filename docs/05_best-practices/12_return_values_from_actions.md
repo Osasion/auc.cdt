@@ -14,7 +14,7 @@ When you implement an action within a smart contract use the `return` statement 
 
 The following list provides important details for when you return a value from an action:
 
-* As mentioned above, the `AUC` framework does all the heavy lifting for the return value to convey it to the client. The `AUC` framework defines and uses a new intrinsic, namely `set_action_return_value`. To learn more about `EOSIO` returned values functionality, refer to its documentation and [implementation](https://github.com/Osasion/eosio.cdt/blob/develop/libraries/native/intrinsics.cpp#L295).
+* As mentioned above, the `AUC` framework does all the heavy lifting for the return value to convey it to the client. The `AUC` framework defines and uses a new intrinsic, namely `set_action_return_value`. To learn more about `AUC` returned values functionality, refer to its documentation and [implementation](https://github.com/Osasion/eosio.cdt/blob/develop/libraries/native/intrinsics.cpp#L295).
 * The CPU time and memory limit of your contract (maximum size of wasm), not RAM or NET, defines the limits of the returned value..
 * The action receipt includes a hash of the serialized returned value.
 * The action trace includes the serialized returned value.
