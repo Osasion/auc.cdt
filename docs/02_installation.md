@@ -66,9 +66,9 @@ sudo make install
 ## Uninstall after manual installation
 
 ```sh
-sudo rm -fr /usr/local/eosio.cdt
-sudo rm -fr /usr/local/lib/cmake/eosio.cdt
-sudo rm /usr/local/bin/eosio-*
+sudo rm -fr /usr/local/auc.cdt
+sudo rm -fr /usr/local/lib/cmake/auc.cdt
+sudo rm /usr/local/bin/auc-*
 ```
 
 # Installed Tools
