@@ -1,11 +1,11 @@
 ---
-content_title: eosio-cc tool
+content_title: auc-cc tool
 ---
 
-To manually compile the source code, use `eosio-cc` and `eosio-ld` as if it were __clang__ and __lld__. All the includes and options specific to EOSIO and CDT are baked in.
+To manually compile the source code, use `eosio-cc` and `eosio-ld` as if it were __clang__ and __lld__. All the includes and options specific to AUC and CDT are baked in.
 
 ```
-USAGE: eosio-cc [options] <input file> ...
+USAGE: auc-cc [options] <input file> ...
 
 OPTIONS:
 
