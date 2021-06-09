@@ -1,10 +1,10 @@
 # AUC.CDT (Contract Development Toolkit)
 
-AUC.CDT is a toolchain for WebAssembly (WASM) and set of tools to facilitate smart contract development for the AUC platform. In addition to being a general purpose WebAssembly toolchain, [AUC](https://github.com/Osasion/AUChain) specific optimizations are available to support building AUC smart contracts.  This new toolchain is built around [Clang 7](https://github.com/eosio/llvm), which means that EOSIO.CDT has the most currently available optimizations and analyses from LLVM, but as the WASM target is still considered experimental, some optimizations are incomplete or not available.
+AUC.CDT is a toolchain for WebAssembly (WASM) and set of tools to facilitate smart contract development for the AUC platform. In addition to being a general purpose WebAssembly toolchain, [AUC](https://github.com/Osasion/AUChain) specific optimizations are available to support building AUC smart contracts.  This new toolchain is built around [Clang 7](https://github.com/Osasion/auc.llvm), which means that AUC.CDT has the most currently available optimizations and analyses from LLVM, but as the WASM target is still considered experimental, some optimizations are incomplete or not available.
 
 ## New Introductions
 
-As of this release two new repositories are under the suite of tools provided by **EOSIO.CDT**.  These are the [Ricardian Template Toolkit](https://github.com/eosio/ricardian-template-toolkit) and the [Ricardian Specification](https://github.com/eosio/ricardian-spec). The **Ricardian Template Toolkit** is a set of libraries to facilitate smart contract writers in crafting their Ricardian contracts.  The Ricardian specification is the working specification for the above mentioned toolkit.  Please note that both projects are **alpha** releases and are subject to change.
+As of this release two new repositories are under the suite of tools provided by **AUC.CDT**.  These are the [Ricardian Template Toolkit](https://github.com/eosio/ricardian-template-toolkit) and the [Ricardian Specification](https://github.com/eosio/ricardian-spec). The **Ricardian Template Toolkit** is a set of libraries to facilitate smart contract writers in crafting their Ricardian contracts.  The Ricardian specification is the working specification for the above mentioned toolkit.  Please note that both projects are **alpha** releases and are subject to change.
 
 ## Upgrading
 
