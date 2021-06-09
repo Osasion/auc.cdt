@@ -8,7 +8,7 @@ content_title: Return Values From Actions
 
 ## Concept
 
-When you implement an action within a smart contract use the `return` statement and pass any value to the action sender. The returned value can be of any C++ primitive type, any C++ standard library type, or any user defined type. The `EOSIO` framework does all the work necessary to serialize the value returned and send it back to the client. On the client side you deserialize the received value and access it the same way you access any other function’s return value.
+When you implement an action within a smart contract use the `return` statement and pass any value to the action sender. The returned value can be of any C++ primitive type, any C++ standard library type, or any user defined type. The `AUC` framework does all the work necessary to serialize the value returned and send it back to the client. On the client side you deserialize the received value and access it the same way you access any other function’s return value.
 
 ## Details
 
