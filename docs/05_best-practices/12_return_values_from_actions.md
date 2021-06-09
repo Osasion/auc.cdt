@@ -14,7 +14,7 @@ When you implement an action within a smart contract use the `return` statement 
 
 The following list provides important details for when you return a value from an action:
 
-* As mentioned above, the `EOSIO` framework does all the heavy lifting for the return value to convey it to the client. The `EOSIO` framework defines and uses a new intrinsic, namely `set_action_return_value`. To learn more about `EOSIO` returned values functionality, refer to its documentation and [implementation](https://github.com/EOSIO/eosio.cdt/blob/develop/libraries/native/intrinsics.cpp#L295).
+* As mentioned above, the `EOSIO` framework does all the heavy lifting for the return value to convey it to the client. The `EOSIO` framework defines and uses a new intrinsic, namely `set_action_return_value`. To learn more about `EOSIO` returned values functionality, refer to its documentation and [implementation](https://github.com/Osasion/eosio.cdt/blob/develop/libraries/native/intrinsics.cpp#L295).
 * The CPU time and memory limit of your contract (maximum size of wasm), not RAM or NET, defines the limits of the returned value..
 * The action receipt includes a hash of the serialized returned value.
 * The action trace includes the serialized returned value.
@@ -27,5 +27,5 @@ The following list provides important details for when you return a value from a
 
 For a full working example of a smart contract action which returns a value, refer to the following resources:
 
-* The [`hello`](https://github.com/EOSIO/eosio.cdt/blob/develop/examples/hello/src/hello.cpp#L14) smart contract example, see action `hello::checkwithrv`.
+* The [`hello`](https://github.com/Osasion/eosio.cdt/blob/develop/examples/hello/src/hello.cpp#L14) smart contract example, see action `hello::checkwithrv`.
 * The [How-to return values from actions](../06_how-to-guides/60_how-to-return-values-from-actions.md).
