@@ -1,12 +1,12 @@
 ---
-content_title: eosio-ld tool
+content_title: auc-ld tool
 ---
 
-The eosio-ld tool is a the custom web assembly linker for EOSIO platform smart contracts.
+The eosio-ld tool is a the custom web assembly linker for AUC platform smart contracts.
 
 
 ```
-USAGE: eosio-ld [options] <input file> ...
+USAGE: auc-ld [options] <input file> ...
 
 OPTIONS:
 
