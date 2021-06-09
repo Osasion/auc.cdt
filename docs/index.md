@@ -14,7 +14,7 @@ There's been a round of braking changes, if you are upgrading from older version
 
 [Contributing Guide](https://github.com/Osasion/eosio.cdt/blob/develop/CONTRIBUTING.md)
 
-[Code of Conduct](https://github.com/EOSIO/eosio.cdt/blob/develop/CONTRIBUTING.md#conduct)
+[Code of Conduct](https://github.com/Osasion/eosio.cdt/blob/develop/CONTRIBUTING.md#conduct)
 
 ## License
 
