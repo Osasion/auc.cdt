@@ -29,7 +29,7 @@ sudo apt install ./eosio.cdt_1.8.0-1-ubuntu-18.04_amd64.deb
 ## Debian Package Uninstall
 
 ```sh
-sudo apt remove eosio.cdt
+sudo apt remove auc.cdt
 ```
 
 ## RPM Package Install
