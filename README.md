@@ -8,49 +8,49 @@ As of this release two new repositories are under the suite of tools provided by
 
 ### Attention
 - Please see the [Upgrading Guide 1.2 to 1.3](https://eosio.github.io/eosio.cdt/latest/upgrading/1.2-to-1.3) and [Upgrading Guide 1.5 to 1.6](https://eosio.github.io/eosio.cdt/latest/upgrading/1.5-to-1.6) to be aware of any breaking changes.
-- There is currently a known issue that a minimum of 2 CPU cores is required for using EOSIO.CDT
+- There is currently a known issue that a minimum of 2 CPU cores is required for using AUC.CDT
 
 ## Binary Releases
-EOSIO.CDT currently supports Mac OS X brew, Linux x86_64 Debian packages, and Linux x86_64 RPM packages.
+AUC.CDT currently supports Mac OS X brew, Linux x86_64 Debian packages, and Linux x86_64 RPM packages.
 
-**If you have previously installed EOSIO.CDT, run the `uninstall` script (it is in the directory where you cloned EOSIO.CDT) before downloading and using the binary releases.**
+**If you have previously installed AUC.CDT, run the `uninstall` script (it is in the directory where you cloned AUC.CDT) before downloading and using the binary releases.**
 
 ### Mac OS X Brew Install
 ```sh
-brew tap eosio/eosio.cdt
-brew install eosio.cdt
+brew tap auc/ auc.cdt
+brew install auc.cdt
 ```
 
 ### Mac OS X Brew Uninstall
 ```sh
-brew remove eosio.cdt
+brew remove auc.cdt
 ```
 
 ### Debian Package Install
 ```sh
-wget https://github.com/eosio/eosio.cdt/releases/download/v1.8.0/eosio.cdt_1.8.0-1-ubuntu-18.04_amd64.deb
+wget https://github.com/Osasion/eosio.cdt/releases/download/v1.8.0/eosio.cdt_1.8.0-1-ubuntu-18.04_amd64.deb
 sudo apt install ./eosio.cdt_1.8.0-1-ubuntu-18.04_amd64.deb
 ```
 
 ### Debian Package Uninstall
 ```sh
-sudo apt remove eosio.cdt
+sudo apt remove auc.cdt
 ```
 
 ### RPM Package Install
 ```sh
-wget https://github.com/eosio/eosio.cdt/releases/download/v1.8.0/eosio.cdt-1.8.0-1.el7.x86_64.rpm
+wget https://github.com/Osasion/eosio.cdt/releases/download/v1.8.0/eosio.cdt-1.8.0-1.el7.x86_64.rpm
 sudo yum install ./eosio.cdt-1.8.0-1.el7.x86_64.rpm
 ```
 
 ### RPM Package Uninstall
 ```sh
-sudo yum remove eosio.cdt
+sudo yum remove auc.cdt
 ```
 
 ## Guided Installation or Building from Scratch
 ```sh
-git clone --recursive https://github.com/eosio/eosio.cdt
+git clone --recursive https://github.com/Osasion/auc.cdt
 cd eosio.cdt
 mkdir build
 cd build
@@ -68,24 +68,24 @@ sudo make install
 ### Uninstall after manual installation
 
 ```sh
-sudo rm -fr /usr/local/eosio.cdt
-sudo rm -fr /usr/local/lib/cmake/eosio.cdt
-sudo rm /usr/local/bin/eosio-*
+sudo rm -fr /usr/local/auc.cdt
+sudo rm -fr /usr/local/lib/cmake/auc.cdt
+sudo rm /usr/local/bin/auc-*
 ```
 
 ## Installed Tools
 ---
-* eosio-cpp
-* eosio-cc
-* eosio-ld
-* eosio-init
-* eosio-abidiff
-* eosio-wasm2wast
-* eosio-wast2wasm
-* eosio-ranlib
-* eosio-ar
-* eosio-objdump
-* eosio-readelf
+* auc-cpp
+* auc-cc
+* auc-ld
+* auc-init
+* auc-abidiff
+* auc-wasm2wast
+* auc-wast2wasm
+* auc-ranlib
+* auc-ar
+* auc-objdump
+* auc-readelf
 
 ## Contributing
 
