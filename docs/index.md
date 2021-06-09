@@ -4,7 +4,7 @@ AUC.CDT is a toolchain for WebAssembly (WASM) and set of tools to facilitate sma
 
 ## New Introductions
 
-As of this release two new repositories are under the suite of tools provided by **AUC.CDT**.  These are the [Ricardian Template Toolkit](https://github.com/eosio/ricardian-template-toolkit) and the [Ricardian Specification](https://github.com/eosio/ricardian-spec). The **Ricardian Template Toolkit** is a set of libraries to facilitate smart contract writers in crafting their Ricardian contracts.  The Ricardian specification is the working specification for the above mentioned toolkit.  Please note that both projects are **alpha** releases and are subject to change.
+As of this release two new repositories are under the suite of tools provided by **AUC.CDT**.  These are the [Ricardian Template Toolkit](https://github.com/Osasion/ricardian-template-toolkit) and the [Ricardian Specification](https://github.com/eosio/ricardian-spec). The **Ricardian Template Toolkit** is a set of libraries to facilitate smart contract writers in crafting their Ricardian contracts.  The Ricardian specification is the working specification for the above mentioned toolkit.  Please note that both projects are **alpha** releases and are subject to change.
 
 ## Upgrading
 
